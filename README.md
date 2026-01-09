@@ -6,6 +6,9 @@ This is a **Qt‑based C++ desktop application** that provides an interactive en
 
 ---
 
+## Demo And Media
+![Demo](https://github.com/Khorrrr/Theory-of-computation-project/releases/download/v1.0.0/demo-toc.gif)
+
 ## ✨ Key Features
 
 | Category | Functionality | Description |
