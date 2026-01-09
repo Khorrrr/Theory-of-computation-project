@@ -69,23 +69,19 @@ src/
 ### Steps
 ```bash
 # Clone the repository (if not already present)
-git clone <repo-url>
+git clone https://github.com/Khorrrr/Theory-of-computation-project.git
 cd tf-v3
 
-# Create a build directory
-mkdir build && cd build
+# Build the project
+Head to qt creator ide, create a new qt widget application using qmake
+replace the src folder with the existing one
 
-# Configure with CMake (adjust Qt path if needed)
-cmake .. -G "Visual Studio 17 2022" -DCMAKE_PREFIX_PATH="C:/Qt/6.5.0/msvc2019_64"
+# Setup the .pro folder
+Include the path for each folder inside the .pro file that way qt will see these files
 
 # Build
-cmake --build . --config Release
-
-# Run the application
-./Release/CompilerProject.exe
+Build the project and run it
 ```
-
-*The `CMakeLists.txt` already sets the appropriate include directories and links against Qt.*
 
 ---
 
