@@ -1,6 +1,6 @@
 # Theory of Computation – Compiler Project
 
-## 📚 Overview
+##  Overview
 
 This is a **Qt‑based C++ desktop application** that provides an interactive environment for exploring the core concepts of automata theory, lexical analysis, parsing, and semantic analysis. It is designed as a teaching tool for compiler construction courses, offering a **rich, dark‑mode UI** with smooth animations, micro‑interactions, and a polished look.
 
@@ -9,7 +9,7 @@ This is a **Qt‑based C++ desktop application** that provides an interactive en
 ## Demo And Media
 ![Demo](https://github.com/Khorrrr/Theory-of-computation-project/releases/download/v1.0.0/demo-toc.gif)
 
-## ✨ Key Features
+##  Key Features
 
 | Category | Functionality | Description |
 |---|---|---|
@@ -32,7 +32,7 @@ This is a **Qt‑based C++ desktop application** that provides an interactive en
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 src/
@@ -59,7 +59,7 @@ src/
 
 ---
 
-## 🛠️ Build & Run
+##  Build & Run
 
 ### Prerequisites
 - **Qt 6** (Core, Widgets, Gui) – install via the Qt installer.
@@ -89,16 +89,23 @@ cmake --build . --config Release
 
 ---
 
-## 🚀 Usage Guide
+## Usage Guide
 
 1. **Launch the app** – the main window shows three dockable panels.
 2. **Create an Automaton** – click the **New** button in the Automaton List panel, choose DFA or NFA.
 3. **Edit** – use the toolbar to switch between *Select*, *Add State*, *Add Transition*, and *Delete* modes.
-4. **Convert / Minimize** – press the **Convert NFA → DFA** or **⚡ Minimize DFA** buttons.
-5. **Regex → NFA** – click the **🔤 From Regex** button and enter a regular expression.
+4. **Convert / Minimize** – press the **Convert NFA → DFA** or ** Minimize DFA** buttons.
+5. **Regex → NFA** – click the ** From Regex** button and enter a regular expression.
 6. **Simulation** – use the play/step/stop controls; adjust speed with the slider.
 7. **Lexical Analysis** – load a source file via **File → Open**, view tokens in the Lexical Analysis tab.
 8. **Parsing** – after defining a grammar, generate the parse table and visualise parse trees.
-9. **Semantic Analysis** – inspect the symbol table and generate target code.
+9. **Semantic Analysis**
+
+---
+
+## Improvments
+-  Add a machine learning model, that uses a fine tuned model from Hugging Face to be able to make better Code Translation.
+-  When a regex automaton is generated, let it be properly displayed not all messy
+  
 
 
